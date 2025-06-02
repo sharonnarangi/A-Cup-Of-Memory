@@ -87,3 +87,77 @@ body {
 .btn:hover {
   background-color: #bc8a60;
 }
+
+
+.about {
+  padding: 4rem 2rem;
+  background-color: #f7f3f0;
+  text-align: center;
+}
+
+.about h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #3e2c41;
+}
+
+.about p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.8;
+}
+
+
+.menu {
+  padding: 4rem 2rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.menu h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #3e2c41;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.menu-card {
+  background: #fefcfb;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  width: 250px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 1rem;
+}
+
+.menu-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.menu-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.menu-card h3 {
+  color: #3e2c41;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.menu-card p {
+  color: #666;
+  font-size: 0.95rem;
+}
